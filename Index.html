@@ -16,14 +16,69 @@
     <ul class="float">
             <li>Arlinson Gabriel Ferreira dos Santos</li>
                 <p>Curso: GTI</p>
-            <li>Glaucia</li>
+            <li>Glaucia Oliveira</li>
                 <p>Curso: SI</p>
-            <li>Igor</li>
+            <li>Igor Costa</li>
                 <p>Curso: GTI</p>
-            <li>Kleber</li>
+            <li>Kleber Eugênio</li>
                 <p>Curso: GTI</p>
-            <li>Sávio</li>
+            <li>Sávio Trindade</li>
                 <p>Curso: SI</p>
     </ul>
+    <h1> PERGUNTAS </h1>
+
+<p> <b> a) Na tag < input > com atributo type="text", para que serve o atributo "placeholder"?</b></p>
+<p> O atributo placeholder exibe um texto de dica dentro do campo de entrada até que o usuário comece a digitar. Ele é útil para fornecer uma orientação sobre o tipo de dado que deve ser inserido.
+<br> <br> No exemplo: "< input type="text" placeholder="Digite seu nome">
+. Neste exemplo, o texto "Digite seu nome" será exibido até que o usuário insira algum texto no campo.</p>
+
+<p> <b> b) Na tag < input> com atributo type="radio" ou type="checkbox", para que serve o atributo "checked"? </b></p>
+<p>O atributo checked define se a opção do tipo radio ou checkbox está pré-selecionada quando a página carrega. Ele marca a opção como selecionada por padrão.</p>
+<br> Exemplo para checkbox:
+<input type="checkbox" checked> Opção marcada
+<br>
+Exemplo para radio:
+<input type="radio" name="opcao" checked> Opção 01
+
+<p> <b> c) Na tag < input>, para que serve o atributo "value"?</b></p>
+<p> O atributo value especifica o valor que será enviado ao servidor quando o formulário for submetido. Para tipos de entrada como texto, ele define o valor inicial; para tipos como radio ou checkbox, ele define o valor associado àquele botão.</p>
+
+<p> <b> d) Que atributo deve ser utilizado para agrupar vários botões de rádio em um formulário de modo que apenas um deles fique marcado de cada vez?</b></p>
+<p> O atributo name deve ser utilizado com o mesmo valor em todos os botões de rádio do grupo. Isso garante que apenas um deles possa ser selecionado de cada vez.</p>
+<p> Exemplo:
+
+    <form>
+      <input type="radio" name="grupo1" value="opcao1"> Opção 1<br>
+      <input type="radio" name="grupo1" value="opcao2"> Opção 2<br>
+      <input type="radio" name="grupo1" value="opcao3"> Opção 3<br>
+    </form></p>
+
+<p><b> e) Para que serve a tag < label>? Para que serve o atributo "for" nessa tag?</b></p>
+<p> A tag < label> serve para associar um rótulo a um campo de entrada de formulário, melhorando a acessibilidade. O atributo for vincula o rótulo ao campo específico, correspondendo ao valor do atributo id do elemento de entrada. Quando o rótulo é clicado, o campo correspondente ganha o foco ou é ativado (por exemplo, uma caixa de seleção é marcada).</p>
+
+<p> <b> f) Na tag < option>, para que serve o atributo "selected"?</b></p>
+<p> O atributo selected marca uma opção dentro de uma lista suspensa como a opção padrão selecionada quando a página é carregada.</p>
+
+<p> <b> g) Nas tags de formulário, para que serve o atributo "required"?</b></p>
+<p> O atributo required indica que o campo é obrigatório. O formulário não pode ser enviado se o campo marcado como "required" estiver vazio.</p>
+
+<p> <b> h) Para que serve a tag < textarea>?</b></p>
+<p> A tag < textarea> é usada para criar um campo de texto de várias linhas, permitindo que o usuário insira um texto mais longo do que em um campo de entrada comum de uma única linha.</p>
+
+<p> <b> i) Na tag < form>, para que serve o atributo "action"?</b></p>
+<p> O atributo action especifica a URL para a qual os dados do formulário serão enviados quando o formulário for submetido. Ou seja, indica o destino que processará os dados enviados pelo formulário, como um servidor ou uma página específica.</p>
+
+<p> <b> j) Na tag < form>, para que serve o atributo "method"?</b></p>
+<p> O atributo method define o método HTTP a ser usado ao submeter o formulário. Os valores mais comuns são GET (os dados são anexados à URL) e POST (os dados são enviados no corpo da requisição).</p>
+
+<p> <b> k)Para que o valor digitado de uma senha não apareça na barra de endereços do navegador, qual deve ser o valor do atributo "method" na tag < form>? </b></p>
+<p> O valor do atributo method deve ser POST para evitar que os dados, como uma senha, apareçam na URL.</p>
+
+<p> <b> l) Qual valor deve ser informado no atributo "method" na tag < form> em um formulário que será usado para fazer upload de arquivos?</b></p>
+<p> O valor do atributo method deve ser POST, e o atributo enctype="multipart/form-data" deve ser usado para permitir o envio de arquivos.</p>
+
+<p><b> m) O que as tags < fieldset> e < legend> produzem?</b></p>
+<p> A tag < fieldset> agrupa elementos relacionados em um formulário, criando uma borda ao redor. A tag < legend> define um título para o grupo de elementos dentro do < fieldset>.</p>
+
 </body>
 </html>
